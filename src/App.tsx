@@ -1,4 +1,5 @@
-import { Counter } from "./components"
+// import { Counter } from "./components"
+import {CounterWithHook, LoginPage} from "./components"
 
 function App() {
 
@@ -6,7 +7,9 @@ function App() {
     <main>
         <h1>Introduccion a ts</h1>
 
-        <Counter />
+        {/* <Counter /> */}
+        {/* <CounterWithHook /> */}
+        <LoginPage />
     </main>
 
   )
